@@ -57,7 +57,7 @@ class EditList extends React.Component {
     const editListItems = this.props.items.map(eItem => <EditListItem key={eItem.id} eItem={eItem} />);
     return (
       <div className="editListItems">
-        <button>Save</button>
+        <button>Save It</button>
         <button>Clear</button>
         <button>Cancel</button>
         <div>{editListItems}</div>
